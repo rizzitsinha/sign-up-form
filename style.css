@@ -46,3 +46,27 @@ html {
 .sidebar-text img {
     height: 6.2rem;
 }
+
+.sidebar-footer p{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(243 244 246);;
+}
+
+.sidebar-footer a {
+    text-decoration: none;
+    color: rgb(243 244 246);;
+    text-decoration: underline;
+}
+
+.sidebar-footer {
+    height: 100vh;
+    width: 555.53px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    position: absolute;
+    top: -10px;
+}

@@ -101,9 +101,15 @@ body {
     padding: 40px;
 }
 
+/* form {
+    display: flex;
+} */
+
 .form-container {
     background-color: white;
     padding: 30px 50px;
+
+    box-shadow: ;
 }
 
 .form-container p {
@@ -113,10 +119,14 @@ body {
     color: rgba(0, 0, 0, 0.785);
 }
 
+/* .container {
+    display: flex;
+} */
+
 .form-column {
     line-height: 1.8;
 
-    width: 30%;
+    width: 35%;
 
     margin-top: 30px;
 
@@ -129,6 +139,8 @@ body {
     width: 100%;
     margin-bottom: 25px;
 
+    padding: 5px;
+
     border: #E5E7EB 1px solid;
 
     height: 30px;
@@ -137,4 +149,9 @@ body {
 
 .form-column input:last-child {
     margin-bottom: 0;
+}
+
+.form-column {
+    display: inline-block;
+    margin-right: 70px;
 }

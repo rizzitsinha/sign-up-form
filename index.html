@@ -38,21 +38,21 @@
             <form action="./index.html" method="post">
                     <div class="form-column left-container">
                         <label for="first_name">FIRST NAME</label>
-                        <input type="text" name="first_name" id="first_name">
+                        <input type="text" name="first_name" id="first_name" minlength="3" maxlength="15" required>
                     
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" minlength="8" required>
                     </div>
                     <div class="form-column left-container">
                         <label for="last_name">LAST NAME</label>
-                        <input type="text" name="last_name" id="last_name">
+                        <input type="text" name="last_name" id="last_name" minlength="3" maxlength="15" required>
                     
-                        <label for="number">PHONE NUMBER</label>
-                        <input type="tel" name="number" id="number">
+                        <label for="ph-number">PHONE NUMBER</label>
+                        <input type="tel" name="ph-number" id="ph-number" minlength="10" maxlength="10" required>
                         <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm-password" id="confirm-password">
+                        <input type="password" name="confirm-password" id="confirm-password" minlength="8" required>
                     </div>
 
                     <button type="submit">Create Account</button>

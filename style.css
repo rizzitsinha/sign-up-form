@@ -186,3 +186,21 @@ button:active {
 
     color: #596D48;
 }
+
+input:user-invalid {
+    border: solid tomato ;
+    box-shadow: 0 8px 3px hsla(14, 74%, 53%, 0.662);
+
+}
+
+input:valid {
+    border: solid rgb(14, 168, 14) 1px;
+    box-shadow: 0px 8px 3px rgba(9, 151, 9, 0.517);
+}
+
+input:focus {
+    outline: none !important;
+    border:1px solid rgb(0, 174, 255);
+    box-shadow: 0 8px 3px #719ECE;
+
+}

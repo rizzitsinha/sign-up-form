@@ -109,7 +109,7 @@ body {
     background-color: white;
     padding: 30px 50px;
 
-    box-shadow: ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .form-container p {
